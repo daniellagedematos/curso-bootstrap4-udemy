@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shirink-to-fit=no">
+    <title>curso bootstrap4 Udemy</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        div.bg {
+            background-color: blueviolet;
+            height: 50px;
+            border: 1px solid #fff;
+        }
+
+        div.bg1 {
+            background-color: rgb(92, 155, 192);
+            height: 50px;
+            border: 1px solid #fff;
+        }
+    </style>
+
+  </head>
+<body class="container">
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-primary" role="alert">
+                Este é o meu alerta!!!
+            </div>
+        </div>
+    </div>
+    
+
+     <div class="container">
+        <div class="row" >
+            <div class="col-12">
+                <div  class="alert alert-secondary" role="alert">
+                    Este é o meu alerta!!!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="alert alert-success" role="alert">
+                Este é o meu alerta!!!
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-danger" role="alert">
+                Este é o meu alerta!!!
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-warning" role="alert">
+                Este é o meu alerta!!!
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-info" role="alert">
+                Este é o meu alerta!!! <a href="#" class="alert-link">Este é o link</a> clique e descubra oq é.
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-light" role="alert">
+                Este é o meu alerta!!! 
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-dark alert-dimissible fade show" role="alert">
+                    <button type="submit" class="close" data-dismiss="alert" aria-label="fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    Este é o meu alerta!!! tem botão de fechamento
+                </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-11">
+                <div class="alert alert-danger" role="alert">
+                    <h4 class="alert-heading"> Titulo do meu alerta!!</h4>
+                    <p>É simplesmente um texto pegou um modelo de ker incluindo versões de Lorem Ipsum.</p>
+                    <hr>
+                    <p>Existem muitas variações de o, sempre livre de repetição, humor injetado ou palavras não características, etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-11">
+                <h1>Este é o meu alerta!!! <span class="badge badge-primary">novo</span></h1>
+                <h2>Este é o meu alerta!!! <span class="badge badge-secondary">novo</span></h2>
+                <h3>Este é o meu alerta!!! <span class="badge badge-success">novo</span></h3>
+                <h4>Este é o meu alerta!!! <span class="badge badge-danger">novo</span></h4>
+                <h5>Este é o meu alerta!!! <span class="badge badge-warning">novo</span></h5>
+                <h6>Este é o meu alerta!!! <span class="badge badge-info">novo</span></h6>
+                <h2>Este é o meu alerta!!! <span class="badge badge-light">novo</span></h2>
+                <h2>Este é o meu alerta!!! <span class="badge badge-dark">novo</span></h2>
+                
+                </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <button class="btn">
+            Notificações <span class="badge badge-secondary">5</span>
+        </button>
+    </div>
+    <br><br>
+
+    <p>Class breadcrumb nostrar caminho nas pastas de navegação</p>
+    <!-- Class breadcrumb nostrar caminho nas pastas de navegação
+    utilizar nav se for a navegação principal do aplicativo
+    / se for navegação secundario utilizar ol e li-->
+    
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <nav class="breadcrumb">
+                <a href="#" class="breadcrumb-item active">Home</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <nav class="breadcrumb">
+                    <a href="#" class="breadcrumb-item">Home</a>
+                    <a href="#" class="breadcrumb-item active">Biblioteca</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <nav class="breadcrumb">
+                    <a href="#" class="breadcrumb-item">Home</a>
+                    <a href="#" class="breadcrumb-item">Biblioteca</a>
+                    <a href="#"class="breadcrumb-item active">Item</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <nav class="breadcrumb">
+                    <a href="#" class="breadcrumb-item">Home</a>
+                    <a href="#" class="breadcrumb-item">Biblioteca</a>
+                    <a href="#" class="breadcrumb-item">item</a>
+                    <span class="breadcrumb-item active">Bootstrap</span>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item active"><a href="#" >Home</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active"><span>Biblioteca</span></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Biblioteca</a></li>
+                    <li class="breadcrumb-item active"><span>item</span></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Biblioteca</a></li>
+                    <li class="breadcrumb-item"><a href="#">item</a></li>
+                    <li class="breadcrumb-item active"><span>Bootstrap</span></li>
+                    
+                </ol>
+            </div>
+        </div>
+    </div>
+    
+
+    
+   
+
+
+    <link rel="stylesheet" href="js/jquery-3.2.1.min.js">
+    <link rel="stylesheet" href="js/popper.min.js">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+       
+</body>
+</html>
